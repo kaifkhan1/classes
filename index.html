@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Kaif Classes</title>
 </head>
 <body>
@@ -45,7 +47,7 @@
    
     </header>
 
-         <main id="main-body">
+         <main id="main-body" data-aos="fade-zoom-in" data-aos-delay="100">
              <h1 class="title-section">Gallery</h1>
             <div class="carousel-container">
                 <div class="carousel-fade fade">
@@ -61,7 +63,7 @@
 
         <div id="main-teacher">
             <h1 class="title-section">Teachers</h1>
-            <div class="teacher-container">
+            <div class="teacher-container" data-aos="fade-right" data-aos-delay="100">
                 <div class="image-container">
                     <img src="./img/man-1253004_1920.jpg" alt="man-1.jpgg">
                 </div>
@@ -73,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div class="teacher-container">
+            <div class="teacher-container"  data-aos="fade-left" data-aos-delay="100">
                 <div class="image-container">
                     <img src="./img/man-2442565_1920.jpg" alt="man-1.jpgg">
                 </div>
@@ -98,5 +100,12 @@
         </footer>
 
     <script src="./app.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    
 </body>
 </html>
